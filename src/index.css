@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+/* styling header component  */
+
+.headerComponent {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    grid-row: 1/2;
+    background-color: aquamarine;
+    align-items: baseline;
+}
+
+
+.headerComponent ol {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.headerComponent ol li a {
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+/* styling footer component  */
+.footerComponent {
+    text-align: center;
+    grid-row: 3/-1;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 50px;
+}
